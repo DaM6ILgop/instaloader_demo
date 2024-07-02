@@ -35,7 +35,7 @@ def download_instagram_video(url, download_folder="downloads", username=None):
     except Exception as e:
         print(f"Произошла ошибка при загрузке видео: {e}")
 
-# Пример использования
+
 sources = "https://www.instagram.com/p/C3aL53qtdfj/?igsh=MzRlODBiNWFlZA=="
 username = "your inst username" 
 download_instagram_video(sources, username=username)
